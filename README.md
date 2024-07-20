@@ -1,5 +1,7 @@
 # llama_with_eeve
 
+llama모델과 eeve토크나이저를 사용해 랜덤 가중치로 초기화한 후 pretrain과 instruction tuning을 진행한 모델입니다.
+
 다음 링크에서 사용할 수 있습니다: https://huggingface.co/kikikara/llama_with_eeve_new_03_150m
 
 
