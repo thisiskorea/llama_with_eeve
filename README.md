@@ -1,7 +1,7 @@
 # llama_with_eeve
 
 다음 링크에서 사용할 수 있습니다: https://huggingface.co/kikikara/llama_with_eeve_new_03_150m
-\n
+
 
 모델별 평가 점수
 
@@ -32,3 +32,5 @@ pipe = pipeline(task="text-generation", model=model, tokenizer=tokenizer, max_le
 result = pipe(prompt)
 
 print(result[0]['generated_text'])```
+
+
