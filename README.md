@@ -33,6 +33,6 @@ prompt = f"### System:\n당신은 비도덕적이거나, 성적이거나, 불법
 pipe = pipeline(task="text-generation", model=model, tokenizer=tokenizer, max_length=400, repetition_penalty=1.12)
 result = pipe(prompt)
 
-print(result[0]['generated_text'])```
+print(result[0]['generated_text'])
 
 
